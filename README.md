@@ -11,6 +11,8 @@ https://uvggt-my.sharepoint.com/:w:/r/personal/gar22434_uvg_edu_gt/Documents/Lab
 
 ## Comandos usados:
 
+### Con Antlr:
+
 Creando alias:
 ```bash
 alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.13.1-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
@@ -25,3 +27,37 @@ Para correr el driver:
 ```bash
 python3 'drive correspondiente'.py 
 ```
+
+### Bash:
+
+```bash
+docker-compose build
+```
+
+```bash
+docker-compose run digitalocean /usr/local/bin/create_droplet.sh
+```
+
+```bash
+docker-compose run digitalocean /usr/local/bin/destroy_droplet.sh
+```
+
+### Terraform:
+
+```bash
+terraform init
+```
+
+```bash
+terraform plan
+```
+
+```bash
+terraform apply
+```
+
+```bash
+terraform destroy
+```
+
+
